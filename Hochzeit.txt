@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hochzeit von Helena-Charlott & Sascha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #7da98e;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 2em;
+            padding: 1em;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #7da98e;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .qr-code {
+            display: block;
+            margin: 1em auto;
+            text-align: center;
+        }
+        .map {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hochzeit von Helena-Charlott & Sascha</h1>
+        <p>13. August 2024</p>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Unsere Geschichte</h2>
+            <p>Wir, Helena-Charlott Wenderoth und Sascha Bisinger, sind seit dem 13.08.2024 zusammen. Der Heiratsantrag fand am 28.04.2023 in Italien, in der Grotta di Lord Byron, statt.</p>
+        </div>
+        <div class="section">
+            <h2>Details zur Hochzeit</h2>
+            <p>Datum: 13.08.2024</p>
+            <p>Standesamtliche Trauung: 11:30 Uhr im Standesamt Wolfsburg</p>
+            <p>Feier: Marriott Hotel am Allersee, Wolfsburg</p>
+        </div>
+        <div class="section">
+            <h2>Location für den Abend</h2>
+            <p>Courtyard Wolfsburg<br>Adresse: Allerpark 8, 38448 Wolfsburg</p>
+            <img src="image.png" alt="Räumliche Übersicht des Hotels" class="map">
+        </div>
+        <div class="section">
+            <h2>Unsere Dienstleister</h2>
+            <p><strong>Torte:</strong> Zitlau Artur Erlesene Festtagstorten</p>
+            <p><strong>Fotografie:</strong> Sarah Bernhof Fotografie</p>
+            <p><strong>Fotospiegel, Slush Eis Maschine und Leuchtbuchstaben:</strong> SW-Verleih, Nachtbleek 9, 38159 Vechelde</p>
+            <p><strong>Dekoration:</strong> Deko Point, Allerstraße 22, 38524 Sassenburg</p>
+        </div>
+        <div class="section">
+            <h2>Fotos hochladen</h2>
+            <p>Wir würden uns freuen, wenn ihr eure Fotos vom Tag mit uns teilen würdet. Nutzt dazu den QR-Code unten, um eure Bilder hochzuladen.</p>
+            <div class="qr-code">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://example.com/upload&size=150x150" alt="QR Code zum Hochladen von Fotos">
+            </div>
+        </div>
+        <div class="section">
+            <h2>Zeitplan</h2>
+            <p><strong>11:30 Uhr:</strong> Standesamtliche Trauung im Standesamt Wolfsburg</p>
+            <p><strong>12:10 Uhr:</strong> Sektempfang am Standesamt Wolfsburg</p>
+            <p><strong>16:00 Uhr:</strong> Empfang im Marriott Hotel am Allersee</p>
+            <p><strong>17:30 Uhr:</strong> Hochzeitssuppe</p>
+            <p><strong>18:00 Uhr:</strong> Abendessen</p>
+            <p><strong>20:00 Uhr:</strong> Den Abend ausklingen lassen & uns überraschen lassen</p>
+        </div>
+    </div>
+    <footer>
+        <p>Mit Liebe gestaltet von Helena-Charlott & Sascha</p>
+    </footer>
+</body>
+</html>
